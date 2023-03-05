@@ -271,6 +271,27 @@ img {
   margin-right: 0;
 }
 
+.about-social-item {
+  width: 264px;
+  height: 112px;
+}
+.about-social-link {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+}
+
+.about-social-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .about-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -669,7 +690,7 @@ img {
 }
 
 .footer-social-link:is(:hover, :focus) {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .footer-social-icon {
   fill: #fff;
