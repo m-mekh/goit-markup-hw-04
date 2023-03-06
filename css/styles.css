@@ -325,7 +325,7 @@ img {
   align-items: center;
   background: #e5e5e5;
   gap: 24px;
-  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2225.jpg);
+  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
   background-blend-mode: soft-light, normal;
   border: 1px solid #e7e9fc;
 }
