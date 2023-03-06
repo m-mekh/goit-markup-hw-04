@@ -198,6 +198,11 @@ img {
   display: flex;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/header-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/header-img.jpg);
+  background-size: contain;
 }
 
 .hero-conainer {
@@ -320,6 +325,9 @@ img {
   align-items: center;
   background: #e5e5e5;
   gap: 24px;
+  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2225.jpg);
+  background-blend-mode: soft-light, normal;
+  border: 1px solid #e7e9fc;
 }
 
 .gallery-list {
@@ -457,9 +465,13 @@ img {
 
 .customers-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1128px;
+
+  column-gap: 24px;
   margin: auto;
 }
 
@@ -479,6 +491,7 @@ img {
   align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: #8e8f99;
 }
 
 .customers-item-img {
@@ -528,6 +541,7 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   gap: 24px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn:not(:last-child) {
