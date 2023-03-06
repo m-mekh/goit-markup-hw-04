@@ -193,7 +193,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-adress-color);
-  background-color: #2e2f42;
+
+  max-width: 1440px;
+  margin: auto;
   text-align: center;
   display: flex;
   padding-top: 188px;
@@ -202,7 +204,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/header-img.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-conainer {
