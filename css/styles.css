@@ -176,7 +176,6 @@ img {
 .header-mail:focus,
 .header-tel:focus {
   color: var(--hover-focus-color);
-  font-weight: bold;
 }
 
 .header-link:active {
