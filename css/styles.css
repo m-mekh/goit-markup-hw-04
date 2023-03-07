@@ -316,6 +316,7 @@ img {
 }
 
 .gallery {
+  padding-top: 0;
   padding-bottom: 120px;
 }
 
@@ -449,6 +450,7 @@ img {
 }
 
 .customers {
+  padding-top: 0;
   padding-bottom: 120px;
 }
 
